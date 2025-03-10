@@ -23,7 +23,7 @@ public class Person {
          System.out.println("Name: " + name + " Age: " + age);
      }
 
-     public static void isYoung(int age){
+     public void isYoung(int age){
          if( age >= 18){
              System.out.println("Young!");
          }
